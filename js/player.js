@@ -45,7 +45,7 @@ class Player{
 		if(this.isInt(scoreToAdd)) 
 			this.roundScore += scoreToAdd; 
 		else
-			alert("c'mon bro");
+			alert("we need an int value!! ");
 		return this.roundScore;
 	}
 
